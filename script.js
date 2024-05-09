@@ -13,3 +13,9 @@ for(k; k <= 10; k++)
 
 console.log("Valor de y: "+ y+ '\n');
 
+for(k; k != 0; k--)
+{
+    console.log(`O número é ${k}!\n`);
+    y--;
+}
+console.log(`Valor de y: ${y}`);
